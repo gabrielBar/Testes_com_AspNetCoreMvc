@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Divisao";
+}
+
+<h2>Divisao</h2>
+
+    @using (Html.BeginForm())
+    {
+<div class="panel panel-default">
+
+        <div class="panel-heading">Divisão</div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-6">
+                    <label>Numerador</label>
+                    @Html.TextBox("Numerador", (ViewBag.Numerador as int?), new { @class = "form-control", type = "number" })
+
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <label>Denominador</label>
+                    @Html.TextBox("Denominador", (ViewBag.Denominador as int?), new { @class = "form-control", type = "number" })
+                </div>
+            </div>
+            <br />
+            <div class="row ">
+                <div class="col-lg-6">
+                    <label>Resultado</label>
+                    @Html.TextBox("Denominador", (ViewBag.Resultado as int?), new { @class = "form-control", type = "number", disabled = "true" })
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <button type="submit" class="btn btn-info">Enviar</button>
+        </div>
+</div>
+    }

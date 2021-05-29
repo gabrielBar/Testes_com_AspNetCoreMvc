@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Calculator;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,19 +13,20 @@ namespace Teste_MVC.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
+        
+        public ActionResult Divisao(int? Numerador=null, int? Denominador=null)
         {
-            ViewBag.Message = "Your application description page.";
+            int? Resultado = null;
+            ViewBag.Numerador = Numerador;
+            ViewBag.Denominador = Denominador;
+            if (Numerador!=null && Denominador!=null)
+            {
+                Resultado = Calcularora.Divide(Numerador.Value,Denominador.Value);
+                ViewBag.Resultado = Resultado;
+            }
 
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }
