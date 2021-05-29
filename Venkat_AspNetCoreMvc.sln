@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste_MVC", "Teste_MVC\Teste_MVC.csproj", "{59BF6086-4B39-484A-94C4-15903D0FC532}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{5AD3BAB8-368E-4D66-95FB-ABCE87664D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Library", "Calculator\Calculator.Library.csproj", "{5AD3BAB8-368E-4D66-95FB-ABCE87664D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Test", "Calculator.Test\Calculator.Test.csproj", "{B3D34F98-9C36-45C3-80A4-66F0C048D6B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Library.Tests", "Calculator.Test\Calculator.Library.Tests.csproj", "{B3D34F98-9C36-45C3-80A4-66F0C048D6B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

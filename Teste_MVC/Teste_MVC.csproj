@@ -180,9 +180,9 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Calculator\Calculator.csproj">
+    <ProjectReference Include="..\Calculator\Calculator.Library.csproj">
       <Project>{5ad3bab8-368e-4d66-95fb-abce87664d83}</Project>
-      <Name>Calculator</Name>
+      <Name>Calculator.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
