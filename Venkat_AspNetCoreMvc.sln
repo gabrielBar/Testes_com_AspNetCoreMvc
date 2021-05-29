@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venkat_AspNetCoreMvc", "Venkat_AspNetCoreMvc\Venkat_AspNetCoreMvc.csproj", "{9B1BCBD1-941F-42D5-9D1D-D4F5B3CEB81A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste_MVC", "Teste_MVC\Teste_MVC.csproj", "{59BF6086-4B39-484A-94C4-15903D0FC532}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B1BCBD1-941F-42D5-9D1D-D4F5B3CEB81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B1BCBD1-941F-42D5-9D1D-D4F5B3CEB81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B1BCBD1-941F-42D5-9D1D-D4F5B3CEB81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B1BCBD1-941F-42D5-9D1D-D4F5B3CEB81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BF6086-4B39-484A-94C4-15903D0FC532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BF6086-4B39-484A-94C4-15903D0FC532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BF6086-4B39-484A-94C4-15903D0FC532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BF6086-4B39-484A-94C4-15903D0FC532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
