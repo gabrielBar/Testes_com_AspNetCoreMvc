@@ -1,5 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Calculator;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+
+
 
 namespace Calculator.Library.Tests
 {
@@ -7,20 +10,24 @@ namespace Calculator.Library.Tests
     public class CalculetorTests
     {
         [TestMethod]
-        public void Divide_PositiveNumber_ReturnsPositiveQuociente()
+        [TestCategory("Demo"), TestCategory("Calculator")]
+        [TestProperty("Test Group", "Functional")]
+        [Owner("Gabriel")]
+        [Priority(0)]
+        public void Divide_PositiveNumbers_ReturnsPositiveQuociente()
         {
-            //Arrange
             var ValorEsperado = 5;
             var Numerador = 20;
             var Denominador = 4;
-
-            //Act
             var ValorAtual = Calcularora.Divide(Numerador, Denominador);
-
-            //Assert
             Assert.AreEqual(ValorEsperado, ValorAtual);
         }
         [TestMethod]
+        [TestCategory("Calculator")]
+        [TestProperty("Test Group", "Functional")]
+        [Owner("Gabriel")]
+        [Priority(0)]
+
         public void Divide_PositiveNumeratorAndNegativeDenominator_ReturnsNegativeQuociente()
         {
             //Arrange
@@ -36,6 +43,10 @@ namespace Calculator.Library.Tests
         }
 
         [TestMethod]
+        [TestCategory("Calculator")]
+        [TestProperty("Test Group", "Functional")]
+        [Owner("Adriano")]
+        [Priority(0)]
         public void Divide_NegativeNumbers_ReturnsPositiveQuociente()
         {
             //Arrange
