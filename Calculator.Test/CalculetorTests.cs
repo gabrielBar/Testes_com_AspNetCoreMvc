@@ -16,10 +16,17 @@ namespace Calculator.Library.Tests
         [Priority(0)]
         public void Divide_PositiveNumbers_ReturnsPositiveQuociente()
         {
+            
+
+
             var ValorEsperado = 5;
             var Numerador = 20;
             var Denominador = 4;
             var ValorAtual = Calcularora.Divide(Numerador, Denominador);
+            
+            System.Diagnostics.Debug.WriteLine($"{Numerador}/{Denominador}={ValorAtual}");
+            System.Diagnostics.Debug.WriteLine($"Valor Esperado = {ValorAtual}");
+
             Assert.AreEqual(ValorEsperado, ValorAtual);
         }
         [TestMethod]
