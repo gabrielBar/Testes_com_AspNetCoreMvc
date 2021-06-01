@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GenericTest name="Fatorial" storage="c:\users\gabri\source\repos\venkat_aspnetcoremvc\calculator.test\fatorial.generictest" id="1081d6eb-f6c5-4987-9a39-161284377a93" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Command filename="C:\Users\gabri\source\repos\Venkat_AspNetCoreMvc\Fatorial\bin\Debug\netcoreapp3.1\Fatorial.exe" arguments="10" workingDirectory="%TestOutputDirectory%" />
+  <SummaryXmlFile path="%TestOutputDirectory%\&lt;Enter summary file name here&gt;" />
+</GenericTest>
