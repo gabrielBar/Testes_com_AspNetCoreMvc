@@ -38,6 +38,14 @@ namespace Calculator.Library.Tests
             
           
             Assert.AreEqual(ValorEsperado, ValorAtual);
+            TextContext.WriteLine(this.TextContext.FullyQualifiedTestClassName); 
+            TextContext.WriteLine(this.TextContext.TestName);
+        }
+
+        [TestCleanup]
+        public void TestCleanup()
+        {
+            TextContext.WriteLine(this.TextContext.CurrentTestOutcome.ToString());
         }
 
         [TestMethod]
